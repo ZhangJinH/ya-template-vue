@@ -1,0 +1,17 @@
+/**
+ * Demo样式
+ */
+:local .cpt {
+  :global {
+    .test {
+      color: red
+      animation: 1s rainbow;
+      -webkit-animation: 1s rainbow;
+    }
+    @keyframes rainbow {
+      0% { background: #c00; }
+      50% { background: orange; }
+      100% { background: yellowgreen; }
+    }
+  }
+}

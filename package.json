@@ -1,0 +1,26 @@
+{
+  "name": "ya-template-vue",
+  "description": "The template gather for ya-spa-vue",
+  "version": "0.0.1-alpha.0",
+  "author": "q13 <qsimon13@gmail.com>",
+  "main": "./index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/q13/vue-template-vue.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">= 8.9.4",
+    "npm": ">= 5.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 9"
+  ]
+}
