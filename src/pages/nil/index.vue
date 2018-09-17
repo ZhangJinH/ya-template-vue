@@ -60,4 +60,3 @@ export default {
   margin-top: 64px;
 }
 </style>
-

@@ -10,16 +10,14 @@
     "url": "https://github.com/q13/vue-template-vue.git"
   },
   "dependencies": {
-    "ya-spa-vue": "^0.0.1-alpha.0"
+    "moment": "^2.22.2",
+    "store": "^2.0.12",
+    "ya-turbine": "^0.0.1-alpha.0"
   },
   "devDependencies": {},
-  "engines": {
-    "node": ">= 8.9.4",
-    "npm": ">= 5.0.0"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 9"
-  ]
+  "application": {
+    "template": {
+      "title": "雅座APP"
+    }
+  }
 }

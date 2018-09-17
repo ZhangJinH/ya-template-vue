@@ -7,12 +7,14 @@ import {
 } from '@/deps/utils';
 import template from './template.html';
 import '../widgets/themes/ya/index.styl';
+import errorCode from '../deps/error-code';
 
 // 数据挂钩
 hook('prepare@app', function () {
   return {
     appData: null,
-    routerOptions: {}
+    routerOptions: {},
+    errorCode
   };
 });
 // App component挂钩，将component configs传递给resolve完成初始化

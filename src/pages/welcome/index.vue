@@ -12,7 +12,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .welcome-body {
   animation: 1s rainbow;
 }

@@ -68,7 +68,7 @@ typings/
 *.sln
 .vscode
 
-# others
+# project
 .history/
 jsconfig.json
 package-lock.json
