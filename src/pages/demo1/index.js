@@ -7,7 +7,6 @@ import './style2.css';
 import './style3.scss';
 import './style4.less';
 import './style5.sass';
-import moment from 'moment';
 import {
   c2s
 } from '@/deps/utils';
@@ -29,6 +28,5 @@ export default {
         console.log('success', data);
       }
     });
-    console.log(moment());
   }
 };

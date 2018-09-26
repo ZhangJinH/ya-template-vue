@@ -4,14 +4,16 @@
   "version": "0.0.1-alpha.0",
   "author": "q13 <qsimon13@gmail.com>",
   "main": "./index.js",
-  "scripts": {},
+  "scripts": {
+    "serve": "ya2 serve . --mock",
+    "build": "ya2 build . --app-env local",
+    "acc": "ya2 acc ."
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/q13/vue-template-vue.git"
   },
   "dependencies": {
-    "moment": "^2.22.2",
-    "store": "^2.0.12",
     "ya-turbine": "^0.0.1-alpha.0"
   },
   "devDependencies": {},
