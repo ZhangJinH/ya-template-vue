@@ -20,6 +20,9 @@
   "application": {
     "template": {
       "title": "雅座APP"
+    },
+    "proxyTable": {
+
     }
   }
 }
