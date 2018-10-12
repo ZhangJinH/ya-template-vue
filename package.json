@@ -28,13 +28,17 @@
       ]
     },
     "proxyTable": {
-      "test": {
-        "target": [
-          "https://cs-t.4008827123.cn/",
-          "http://127.0.0.1:3001"
-        ],
+      "/test": {
+        "target": "https://cs-t.4008827123.cn/",
         "pathRewrite": {
           "^/test": "/"
+        },
+        "changeOrigin": true
+      },
+      "/aa": {
+        "target": "http://127.0.0.1:3001/",
+        "pathRewrite": {
+          "^/aa": "/"
         },
         "changeOrigin": true
       }
