@@ -1,11 +1,12 @@
 {
   "name": "ya-template-vue",
   "description": "The template gather for ya-spa-vue",
-  "version": "0.0.1-alpha.0",
+  "version": "0.0.1-alpha.1",
   "author": "q13 <qsimon13@gmail.com>",
   "main": "./index.js",
   "scripts": {
     "serve": "ya2 serve . --mock",
+    "dev": "ya2 serve . --mock",
     "build": "ya2 build . --app-env local",
     "acc": "ya2 acc ."
   },
@@ -19,7 +20,12 @@
   "devDependencies": {},
   "application": {
     "template": {
-      "title": "雅座APP"
+      "title": "雅座APP",
+      "window": {},
+      "scripts": [
+      ],
+      "links": [
+      ]
     },
     "proxyTable": {
 
