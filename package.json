@@ -8,7 +8,8 @@
     "serve": "ya2 serve . --mock",
     "dev": "ya2 serve . --mock",
     "build": "ya2 build . --app-env local",
-    "acc": "ya2 acc ."
+    "acc": "ya2 acc .",
+    "dll": "ya2 acc ."
   },
   "repository": {
     "type": "git",
