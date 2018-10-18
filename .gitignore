@@ -74,4 +74,6 @@ dist/
 .history/
 jsconfig.json
 package-lock.json
+.eslintignore
+.eslintrc
 # yarn.lock 通过yarn锁版本
