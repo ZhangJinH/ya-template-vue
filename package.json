@@ -9,7 +9,8 @@
     "dev": "ya2 serve . --mock",
     "build": "ya2 build . --app-env local",
     "acc": "ya2 acc .",
-    "dll": "ya2 acc ."
+    "dll": "ya2 acc .",
+    "eslint": "ya2 eslint ."
   },
   "repository": {
     "type": "git",
