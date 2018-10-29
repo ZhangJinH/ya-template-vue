@@ -10,7 +10,8 @@
     "build": "ya2 build . --app-env local",
     "acc": "ya2 acc .",
     "dll": "ya2 acc .",
-    "eslint": "ya2 eslint ."
+    "eslint": "ya2 eslint .",
+    "test": "ya2 test ."
   },
   "repository": {
     "type": "git",
