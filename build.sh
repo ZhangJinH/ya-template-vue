@@ -10,6 +10,6 @@ then
 else
   echo "On ya2 mode";
   yarn install;
-  ya2 test .; # 先执行unit testing
+  # ya2 test .; # 先执行unit testing
   ya2 build . --app-domain $3 --app-name $2 --app-env $1;
 fi
