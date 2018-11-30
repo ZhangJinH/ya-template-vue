@@ -19,7 +19,7 @@ ya init demo
 
 **执行过程如下，优先使用yarn安装：**
 
-<img alt="执行过程" src="https://raw.githubusercontent.com/q13/ya-spa-vue/master/example/images/run.png" />
+<img alt="执行过程" src="https://raw.githubusercontent.com/q13/ya-template-vue/master/example/images/run.png" />
 
 ### 更新模板文件
 
@@ -41,7 +41,7 @@ npm run mock
 
 ### 开发 
 
-<img alt="目录结构" src="https://raw.githubusercontent.com/q13/ya-spa-vue/master/example/images/dir.png" />
+<img alt="目录结构" src="https://raw.githubusercontent.com/q13/ya-template-vue/master/example/images/dir.png" />
 
 使用支持**eslint**的Editor或IDE进行开发，**.eslintrc.json**默认在项目根目录下
 
@@ -51,7 +51,7 @@ npm run mock
 
 目录位置 **/src/app/**
 
-<img alt="app" src="https://raw.githubusercontent.com/q13/ya-spa-vue/master/example/images/app.png" />
+<img alt="app" src="https://raw.githubusercontent.com/q13/ya-template-vue/master/example/images/app.png" />
 
 * **index.js：** App级别的公共逻辑放置位置，构建项目整体结构，粘合页面逻辑（page）和模块逻辑（module）
 * **preset.styl：** App预设样式
@@ -64,7 +64,7 @@ npm run mock
 
 目录位置 **/src/pages/**
 
-<img alt="page" src="https://raw.githubusercontent.com/q13/ya-spa-vue/master/example/images/page.png" />
+<img alt="page" src="https://raw.githubusercontent.com/q13/ya-template-vue/master/example/images/page.png" />
 
 页面逻辑放置位置，以目录划分页面功能，多目录层级组织方式，文件组织方式如下：
 
@@ -77,13 +77,13 @@ npm run mock
 
 业务功能模块放置位置，可能在项目范围内被多个页面逻辑多次引用，以目录划分模块功能，多目录扁平化组织方式，便于引用，文件组织方式参考**page**约定。
 
-<img alt="module" src="https://raw.githubusercontent.com/q13/ya-spa-vue/master/example/images/module.png" />
+<img alt="module" src="https://raw.githubusercontent.com/q13/ya-template-vue/master/example/images/module.png" />
 
 #### widgets
 
 通用组件库放置位置，不和业务逻辑产生强耦合，可跨项目使用。组件和主题样式组织方式如下图：
 
-<img alt="widget" src="https://raw.githubusercontent.com/q13/ya-spa-vue/master/example/images/widget.png" />
+<img alt="widget" src="https://raw.githubusercontent.com/q13/ya-template-vue/master/example/images/widget.png" />
 
 **特别要注意的：** 优先采用**ya-ui-vue**对第三方库**element-ui**、**mint-ui**、**antV**的封装。
 
@@ -94,8 +94,8 @@ npm run mock
 
 ### 进一步
 
-* [文件命名和编码约束](https://github.com/q13/ya-spa-vue/blob/master/doc/common.md)
-* [Graph使用方式](https://github.com/q13/ya-spa-vue/blob/master/doc/graph.md)
-* [Hook api](https://github.com/q13/ya-spa-vue/blob/master/doc/hook.md)
-* [Utils api](https://github.com/q13/ya-spa-vue/blob/master/doc/utils.md)
-* [两种路由方案Activity/Fragment](https://github.com/q13/ya-spa-vue/blob/master/doc/router.md)
+* [文件命名和编码约束](https://github.com/q13/ya-template-vue/blob/master/doc/common.md)
+* [Graph使用方式](https://github.com/q13/ya-template-vue/blob/master/doc/graph.md)
+* [Hook api](https://github.com/q13/ya-template-vue/blob/master/doc/hook.md)
+* [Utils api](https://github.com/q13/ya-template-vue/blob/master/doc/utils.md)
+* [两种路由方案Activity/Fragment](https://github.com/q13/ya-template-vue/blob/master/doc/router.md)
