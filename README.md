@@ -5,10 +5,10 @@
 **关键字：职责分担，最小化关注范围，开箱即用，响应式重于命令式，懒加载加持**
 ## 安装ya-gui
 
-参考[ya-gui](https://github.com/q13/ya-gui)说明文档
+参考 [ya-gui](https://github.com/q13/ya-gui) 说明文档
 
 ## 安装yarn包管理器
-参考[yarn](https://yarnpkg.com/zh-Hans/docs/install#windows-stable)
+参考 [yarn](https://yarnpkg.com/zh-Hans/docs/install#windows-stable)
 
 ### 更新引擎模板
 
@@ -22,7 +22,7 @@ yarn upgrade ya-turbine
 
 ### 项目启动
 
-使用ya-gui工具，点击"deploy"功能按钮，参考[ya-gui](https://github.com/q13/ya-gui)说明文档
+使用ya-gui工具，点击"deploy"功能按钮，参考 [ya-gui](https://github.com/q13/ya-gui) 说明文档
 
 ### 开发 
 
