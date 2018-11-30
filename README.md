@@ -3,29 +3,18 @@
 一套基于vue搭建的项目模板，适应多终端平台（PC/Mobile）。
 
 **关键字：职责分担，最小化关注范围，开箱即用，响应式重于命令式，懒加载加持**
-## 安装
+## 安装ya-gui
 
-### 全局安装yz-cli脚手架
+参考[ya-gui](https://github.com/q13/ya-gui)说明文档
 
-```sh
-npm install -g yz-cli
-```
+## 安装yarn包管理器
+参考[yarn](https://yarnpkg.com/zh-Hans/docs/install#windows-stable)
 
-### 使用ya命令创建项目（eg. 项目名为demo）
-
-```sh
-ya init demo
-```
-
-**执行过程如下，优先使用yarn安装：**
-
-<img alt="执行过程" src="https://raw.githubusercontent.com/q13/ya-template-vue/master/example/images/run.png" />
-
-### 更新模板文件
+### 更新引擎模板
 
 ```sh
-cd demo
-ya update
+cd demo # demo为测试项目名
+yarn upgrade ya-turbine
 ```
 
 
@@ -33,11 +22,7 @@ ya update
 
 ### 项目启动
 
-```sh
-cd demo
-npm run dev
-npm run mock
-```
+使用ya-gui工具，点击"deploy"功能按钮，参考[ya-gui](https://github.com/q13/ya-gui)说明文档
 
 ### 开发 
 
