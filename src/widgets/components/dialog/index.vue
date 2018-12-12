@@ -15,6 +15,7 @@ export default {
 </script>
 
 <style scoped>
+@import './styles/index.styl';
 .test {
   color: red;
 }
