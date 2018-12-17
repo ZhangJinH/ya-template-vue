@@ -12,7 +12,8 @@
     "acc": "ya2 acc .",
     "dll": "ya2 acc .",
     "eslint": "ya2 eslint .",
-    "test": "ya2 test . --mode development"
+    "test": "ya2 test . --mode development",
+    "api": "ya2 api ."
   },
   "repository": {
     "type": "git",
