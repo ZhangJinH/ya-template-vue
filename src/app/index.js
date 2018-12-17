@@ -7,7 +7,6 @@ import {
   c2s
 } from '@/deps/utils';
 import template from './template.html';
-import '../widgets/themes/ya/index.styl';
 
 // 数据挂钩
 hook('prepare@app', function () {
